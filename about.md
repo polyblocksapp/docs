@@ -16,10 +16,10 @@ Our tokens are based on ERC-721. Please visit <a href="https://polygonscan.com/a
 
 ## CURRENTLY BETA
 
-Polyblocks is still in its early stages: it is in beta. Please keep in mind that bugs may occur.  
+PolyBlocks is still in its early stages: it is in beta. Please keep in mind that bugs may occur.  
 We strongly recommend keeping the price low, so that people can experiment and test your tokens for now.  
 We hope that the token contract will not be updated, but that could very well happen.  
 
 ## COSTS
 
-Polyblocks charges 3% in platform fees, and so for the whole duration of the beta. You do not have to pay any extra charge for us.
+PolyBlocks charges 3% in platform fees, and so for the whole duration of the beta. You do not have to pay any extra charge for us.
