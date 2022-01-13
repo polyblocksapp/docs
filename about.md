@@ -11,7 +11,7 @@ Our tokens are based on ERC-721. Please visit <a href="https://polygonscan.com/a
 
 - Mint your artwork via our smart contract using the “mint” button in the menu
 - Your artwork will be listed in our marketplace
-- An NFT (Token) will be generated when a collector makes a purchase
+- A token (or NFT, or edition) will be minted when a collector makes a purchase, with a newly generated version of the artwork
 
 
 ## CURRENTLY BETA
