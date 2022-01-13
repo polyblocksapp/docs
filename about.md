@@ -20,6 +20,12 @@ PolyBlocks is still in its early stages: it is in beta. Please keep in mind that
 We strongly recommend keeping the price low, so that people can experiment and test your tokens for now.  
 We hope that the token contract will not be updated, but that could very well happen.  
 
-## COSTS
+## FEES
 
-PolyBlocks charges 3% in platform fees, and so for the whole duration of the beta. You do not have to pay any extra charge for us.
+The fees for using PolyBlocks during the beta are as follows:
+
+- When minting a new token from an artwork, PolyBlocks takes 3% of the token's price as a platform fee
+- When a PolyBlocks token is sold in the secondary market, PolyBlocks takes 3% of its value as a platform fee
+- PolyBlocks does not charge any fee when minting new artwork (the artist only needs to pay gas for the transaction)
+
+PolyBlocks is still estimating the running costs, and there is the possibility that the fee might change after beta. We are doing our best to keep the costs low.
