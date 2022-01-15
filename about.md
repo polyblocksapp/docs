@@ -11,7 +11,7 @@ Our tokens are based on the ERC-721 standard. To view the smart contract, please
 
 - To mint your artwork using our smart contract, simply connect your wallet and follow the instructions on the “mint” page
 - Your artwork will then be listed on the PolyBlocks homepage
-- When a collector completes a purchase, a token (or NFT or edition) will be minted with a uniquely generated edition of your artwork
+- When a collector completes a purchase, a token (or NFT) will be minted with a uniquely generated edition of your artwork
 
 
 ## CURRENTLY IN BETA
