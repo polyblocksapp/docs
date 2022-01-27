@@ -32,19 +32,28 @@ There are several rules as follows:
 - The hash can be accessed with the *pb.hash* variable.
 - Use sfc32-based ***pb.random()* instead of *Math.random()* to feed a randomness** determined by the hash given to each token.
 - The script should be **less than 50kb** otherwise you cannot store it on chain.
-- See a full html template <a className="inline-anchor" href="https://polyblocks.io/learn/template">here</a> for your creation!
+- See a full html template [here](https://polyblocks.io/learn/template) for your creation!
 
-#### RANDOMNESS
+
+#### Randomness
 
 We embed a JavaScript object called “pb”.
 
-- “pb.hash” to get a unique hash value.
-- “pb.random()” to get random values (0 to 1) determined by the hash.
-- “pb.randrange(a, b)” to get a random number between two values determined by the hash. (a < r < b)
-- “pb.randint(a, b)” to get a random integer between two values (a <= r <= b) determined by the hash.
+- `pb.hash` to get a unique hash value which determines the output of random functions below.
+- `pb.random()` to get random values (0 to 1)
+- `pb.randrange(a, b)` to get a random number between two values (a < r < b).
+- `pb.randint(a, b)` to get a random integer between two values (a <= r <= b).
 
-PolyBlocks strongly recommends that all artists use “pb.random()”, "pb.randrange(a, b)" or "pb.randint(a, b)" to feed all of their project&apos;s randomness. It&apos;s a sft32-based algorithm generating values ranging between 0 and 1.
+PolyBlocks strongly recommends that all artists use those random functions to feed all of their project&apos;s randomness. It&apos;s a sft32-based algorithm generating values ranging between 0 and 1.
 All the attributes of your piece should be derived from that hash so that users will be able to render the piece on their token and get the same results each time.
+
+#### Attributes
+
+Attributes can be given to each token through `pb.attributes`.  
+
+- The values must be either **`string`, `number` or `boolean`**.
+- `pb.attributes` **must be defined once the page is loaded**.
+- **Continuous numbers are not recommended** because the rarity is calcucated through counting the number of exact occurences.
 
 <br />
 
